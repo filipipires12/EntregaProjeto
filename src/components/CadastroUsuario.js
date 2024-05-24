@@ -117,7 +117,7 @@ const Cadastro = () => {
 
         try {
             // Chama a função para criar o usuário
-            const usuarioCriado = await criarUsuario(nome, senha_hash, email);
+            //const usuarioCriado = await criarUsuario(nome, senha_hash, email);
 
             // Se o usuário for criado com sucesso, redireciona para a página inicial
             navigate("/");
