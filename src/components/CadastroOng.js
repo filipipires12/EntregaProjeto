@@ -90,7 +90,7 @@ const Cadastro = () => {
 
             try {
                 // Chama a função para criar o usuário
-                const usuarioCriado = await criarOng(nome, senha_hash, cnpj, email);
+                //const usuarioCriado = await criarOng(nome, senha_hash, cnpj, email);
     
                 // Se o usuário for criado com sucesso, redireciona para a página inicial
                 navigate("/");
