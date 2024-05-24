@@ -1,0 +1,7 @@
+echo "# EntregaProjeto" >> README.md 
+git init 
+git add README.md 
+git commit -m "first commit" 
+git branch -M main 
+git remote add origin https://github.com/filipipires12/EntregaProjeto.git
+ git push - sua origem principal
